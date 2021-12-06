@@ -15,9 +15,9 @@ The project goal is to build a web application utilizing a dataset containing pr
 
 This project is divided into the following sections:
 
--- Data Processing: building an ETL pipeline to extract data from dataset, clean data and save in a SQLite database
--- Machine Learning Pipeline: build a machine learning pipeline to predict message categories
--- Web development: Run a web application that categorizes message in real time 
+- Data Processing: building an ETL pipeline to extract data from dataset, clean data and save in a SQLite database
+- Machine Learning Pipeline: build a machine learning pipeline to predict message categories
+- Web development: Run a web application that categorizes message in real time 
 
 ## Libraries Used/installation
 
@@ -34,10 +34,10 @@ This project is divided into the following sections:
 
 ## File Descriptions
 
--data: dataset provided by Figure Eight, 2 csv files comprised of of disaster response messages and message categories 
--ETL Preparation Notebook:
--ML Pipeline Preparation Notebook:
--app:
+- data: dataset provided by Figure Eight, 2 csv files comprised of of disaster response messages and message categories 
+- ETL Preparation Notebook:
+- ML Pipeline Preparation Notebook:
+- app:
 
 ## Summary of Findings/screenshots/results
 
