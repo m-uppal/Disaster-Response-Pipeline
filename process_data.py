@@ -69,7 +69,7 @@ def save_data(df, database_filename):
         df -> Cleaned dataset containing combination of messages and categories datasets
     """
     
-    engine = create_engine('sqlite:///InsertDatabaseName.db')
+    engine = create_engine('sqlite:///DisasterResponse.db')
     df.to_sql('Table2', engine, index=False)
 
 
