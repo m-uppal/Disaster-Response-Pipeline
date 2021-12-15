@@ -98,7 +98,7 @@ def tokenize(text):
  
     Args:
  
-    text: string. ? Message text to be processed tokenized
+    text: Message text to be processed tokenized
  
     
  
