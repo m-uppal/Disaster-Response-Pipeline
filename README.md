@@ -45,8 +45,8 @@ This project is divided into the following sections:
 
 - data: dataset provided by Figure Eight, 2 csv files comprised of of disaster response messages and message categories 
 - process_data.py: ETL pipeline used for data cleaning, feature extraction, and storing data in SQLite database
-- train_classifer.py:machine learning pipeline that loads data, trains model, saves trained model as a pickle file. 
-- run.py:launches Flask web app used to classify messages
+- train_classifer.py: machine learning pipeline that loads data, trains model, saves trained model as a pickle file. 
+- run.py: launches Flask web app used to classify messages
 
 ## Results
 
