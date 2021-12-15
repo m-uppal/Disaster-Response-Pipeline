@@ -182,26 +182,18 @@ def build_model():
 def evaluate_model(model, X_test, Y_test, category_names):
 
     """
-    Function evaluates ML model, splits data into train/test sets, train pipeline, and prints model performance
+    Function evaluates ML model and prints model performance
     Arguments:
 
-        pipeline -> ml model pipeline
+        model -> GridSearchCV pipeline object
 
         X_test -> Test features
 
         Y_test -> Test labels
 
-        target_names -> label names 
+        category_names -> label names 
 
     """
-
-    # Train pipeline, split data into train and test sets
-
-    #X_train, X_test, Y_train, Y_test = train_test_split(X, Y)
-
-    # train classifier
-
-    #model.fit(X_train, Y_train)
 
     # evaluate on test set
 
@@ -223,13 +215,13 @@ def save_model(model, model_filepath):
 
     
 
-    This function saves trained model as Pickle file, to be loaded later.
+    This function saves trained model as Pickle file.
 
     
 
     Arguments:
 
-        pipeline -> GridSearchCV pipeline object
+        model -> GridSearchCV pipeline object
 
         model_filepath -> destination path to save .pkl file
 
